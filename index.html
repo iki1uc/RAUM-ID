@@ -1,7 +1,45 @@
-<script src="fin.e.js"></script>
-<script>
-loadAllRespos().then(respos => {
-  const scan = respos.map(r => GHOST_SCAN_REAL(r));
-  renderScan(scan);
-});
-</script>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>RAUM‑ID – Systemübersicht</title>
+
+<style>
+  body { background:#111; color:#eee; font-family:Arial; padding:40px; }
+  h1 { text-align:center; margin-bottom:20px; }
+  .box { background:#222; border:1px solid #444; padding:20px; margin-bottom:20px; }
+  h2 { color:#00ff88; }
+</style>
+</head>
+
+<body>
+
+<h1>RAUM‑ID – Systemübersicht</h1>
+
+<div class="box">
+  <h2>Modul‑Identität</h2>
+  <p>RAUM‑ID ist das Kern‑Modul für Lage, Position und Identität im Gesamtsystem.</p>
+</div>
+
+<div class="box">
+  <h2>Modul‑Funktion</h2>
+  <p>RAUM‑ID definiert Positionen, Zustände und Identitäten innerhalb aller Module.</p>
+</div>
+
+<div class="box">
+  <h2>Modul‑Fähigkeiten</h2>
+  <ul>
+    <li>RAUM‑Definition</li>
+    <li>ID‑Matrix</li>
+    <li>Status‑Verwaltung</li>
+    <liModul‑Verknüpfung</li>
+  </ul>
+</div>
+
+<div class="box">
+  <h2>Modul‑Status</h2>
+  <p>RAUM‑ID ist aktiv und bildet die Grundlage für alle weiteren Module.</p>
+</div>
+
+</body>
+</html>
