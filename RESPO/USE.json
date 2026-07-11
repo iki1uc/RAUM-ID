@@ -1,0 +1,10 @@
+{
+  "NAME": "USE",
+  "ID": "US-001",
+  "STATUS": "TMP",
+  "IST": "IDLE",
+  "NEU": "RUN",
+  "OUT": {},
+  "WAHRHEIT": false,
+  "IST_IST": "IDLE"
+}
