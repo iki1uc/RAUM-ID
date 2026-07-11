@@ -1,10 +1,22 @@
-RAUM_KERNEL(raum):
-    ID = (ZUG, BLATT, STATUS, LEGO, TETRIZ, ARG)
-    DATE = (IST, SOLL, NEU, IST2, SOLL2)
+function RAUM_KERNEL(raum){
+    const ID = {
+        ZUG: raum.ZUG,
+        BLATT: raum.BLATT,
+        STATUS: raum.STATUS,
+        LEGO: raum.LEGO,
+        TETRIZ: raum.TETRIZ,
+        ARG: raum.ARG
+    };
 
-    if raum.STATUS == "REAL":
-        raum.RESULT = raum.IST
-    else:
-        raum.RESULT = raum.NEU
+    const DATE = {
+        IST: raum.IST,
+        SOLL: raum.SOLL,
+        NEU: raum.NEU,
+        IST2: raum.IST2,
+        SOLL2: raum.SOLL2
+    };
 
-    return raum
+    raum.RESULT = (raum.STATUS === "REAL") ? raum.IST : raum.NEU;
+
+    return { ID, DATE, ...raum };
+}
