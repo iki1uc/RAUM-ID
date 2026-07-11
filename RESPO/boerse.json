@@ -1,0 +1,10 @@
+{
+  "NAME": "boerse",
+  "ID": "BR-001",
+  "STATUS": "TMP",
+  "IST": "WAIT",
+  "NEU": "READY",
+  "OUT": {},
+  "WAHRHEIT": false,
+  "IST_IST": "WAIT"
+}
