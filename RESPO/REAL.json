@@ -1,0 +1,10 @@
+{
+  "NAME": "REAL",
+  "ID": "RL-001",
+  "STATUS": "REAL",
+  "IST": "TRUE",
+  "NEU": "TRUE",
+  "OUT": {},
+  "WAHRHEIT": true,
+  "IST_IST": "TRUE"
+}
