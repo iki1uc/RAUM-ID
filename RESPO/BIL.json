@@ -1,0 +1,10 @@
+{
+  "NAME": "BIL",
+  "ID": "BL-001",
+  "STATUS": "TMP",
+  "IST": "CHECK",
+  "NEU": "BUILD",
+  "OUT": {},
+  "WAHRHEIT": false,
+  "IST_IST": "CHECK"
+}
