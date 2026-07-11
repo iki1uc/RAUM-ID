@@ -1,0 +1,9 @@
+GHOST_SCAN_REAL(r):
+    if r.MISS == true:
+        r.ERROR = true
+        r.RESULT = "MISS"
+        return r
+
+    r.RESULT = (r.STATUS == "REAL") ? r.IST : r.NEU
+    r.WAHRHEIT = (r.RESULT == r.IST)
+    return r
