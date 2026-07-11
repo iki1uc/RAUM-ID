@@ -1,12 +1,13 @@
-co pilot sagt :
-
-GR_ACTIVATE_6E:
-    LOAD = (ZUG, BLATT, STATUS, LEGO, TETRIZ, ARG)
-    BIND = RESPO_ALL
-    TMP = TMP_ALL
-    GRID = NC_ALL
-    TRANSFER = BP_ALL
-
+ID = tmp 
+ID = {
+ID = {
+  ZUG:    Bewegung / Aktion,
+  BLATT:  Bewertung / IST-SOLL,
+  STATUS: Zustand (REAL | TMP),
+  LEGO:   Struktur / Baustein,
+  TETRIZ: Richtung / Tiefe,
+  ARG:    Wahrheit / Beweis
+}
       ZUG
    /       \
 BLATT     STATUS
@@ -14,15 +15,4 @@ BLATT     STATUS
 LEGO       TETRIZ
    \       /
       ARG
-      IST
-   /       \
-SOLL      NEU
- |           |
-IST2      SOLL2
-NC_STATE = BUILT
-GR_ROOT = ACTIVE
-NO_FAIL = TRUE
-ID‑Export
-
-ID‑Transfer
 
